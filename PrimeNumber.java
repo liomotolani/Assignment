@@ -6,7 +6,7 @@ public class PrimeNumber{
 		System.out.println("Enter any number: ");
 		int number = input.nextInt();
 		if(number % 2 == 1 || number == 2){
-		System.out.println("Number is a prime number");
+		System.out.println(number+" is a prime number");
 		}
 	}
 }
