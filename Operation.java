@@ -32,8 +32,16 @@ public class Operation{
             result = input1 % input2;
             System.out.println(result);
             break;
+            case "^":
+            double powerResult = 1;
+            for(int i = 0; i< input2;i++){
+              powerResult *= input1;//powerResult = powerResult * input1
+            }
+            System.out.println(powerResult);
+            break;
             default:
         }
+        
       input.close();  
     }
 
