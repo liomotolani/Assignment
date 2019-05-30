@@ -104,12 +104,12 @@ public class HealthProfile{
 
     public double calculateTargetRange1(){
         
-        double targetRate = (1 + 0.5) * maximumHeartRate;
+        double targetRate = 0.5 * maximumHeartRate;
         return targetRate;
     }
     public double calculateTargetRange2(){
       
-        double targetRate = (1 + 0.85) * maximumHeartRate;
+        double targetRate =  0.85 * maximumHeartRate;
         return targetRate;
     }
 }
